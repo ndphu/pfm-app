@@ -2,10 +2,6 @@ import React from 'react';
 import {Table, TableHeader, TableRow, TableBody, TableHeaderColumn, TableRowColumn} from "material-ui/Table";
 
 class UserTable extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <Table>
